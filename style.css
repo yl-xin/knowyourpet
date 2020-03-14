@@ -11,10 +11,29 @@ nav {
     color: #FBEEC1;
 
 }
-#navLink{
+#navbrand{
+    color: #FBEEC1;
+}
+
+a.navLinks{
     color: #FBEEC1;
 }
 footer{
     background-color: #8D8741;
     color: #FBEEC1;
+}
+
+.benefits{
+    float: left;
+}
+.benefits img{
+    width: 18rem;
+    height: 220px;
+    /* float: left; */
+}
+
+main{background-color:antiquewhite; }
+#gallery{background-color: #FBEEC1;}
+.card{
+    background-color: antiquewhite;
 }
