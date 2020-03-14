@@ -13,9 +13,9 @@
 
 <body class="bg-light">
 
-    <nav class="navbar navbar-dark navbar-expand-lg py-3  fixed-top">
+    <nav id="mainNav"  class="navbar navbar-dark navbar-expand-lg fixed-top">
         <div class="container">
-            <a id="navbrand" class="navbar-brand " href="#"><i class="fas fa-paw mr-2"></i> Know Your Pets</a>
+            <a id="navbrand" class="navbar-brand " href="#"><i class="fas fa-paw mr-2"></i> Benefits of Having a Cat</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -91,7 +91,7 @@
         </div>
     </main>
     <footer class="text-center p-3">
-        <h5>Yanlian & Suad &copy; Copyright 2020</h5>
+        <h5>YL & Suad &copy; Copyright 2020</h5>
     </footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -104,6 +104,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script>
+            $(function(){
+                $(document).scroll(function(){
+                    var $nav = $("#mainNav");
+                    $nav.toggleClass("scrolled",$(this).scrollTop()>$nav.height());
+                })
+            })
+        </script>
 
 
 

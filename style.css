@@ -8,7 +8,7 @@ header{
 }
 nav {
     background-color: #8D8741;
-    color: #FBEEC1;
+
 
 }
 #navbrand{
@@ -36,4 +36,50 @@ main{background-color:antiquewhite; }
 #gallery{background-color: #FBEEC1;}
 .card{
     background-color: antiquewhite;
+}
+
+
+/* dog page */
+body#pinkbg{
+    background-color: #f5d9df;
+}
+
+#headingGroup span{
+    color:#ea1c2c;
+}
+
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+@media(max-width:1200px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+.navbar.scrolled{
+    background-color: #BC986A;
+    transition: background 800ms;
+}
+
+.boneIcon{
+        color:white;
+        font-size: 2rem;
+}
+.content{
+        margin-top: 100px;
+        margin-bottom: 100px;
+}
+.blurb h2 {
+    color:#ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.blurb p{
+    /* color:#f498b8; */
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+
 }
