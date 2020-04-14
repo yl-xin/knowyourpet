@@ -1,32 +1,30 @@
-header{
-    background-image: url("img/hd2.jpg") ; 
-    height: 280px;
-    background-position: center; 
-    background-size: cover;
-    /* background-repeat: no-repeat; */
-    color:#724E35;
-}
+header#myheader{
 
+    color:#724E35;
+    color:#de6f26;
+}
+#headercard{
+    background-color:#de6f26;
+    color: white;
+}
 
 nav {
-    background-color: #8D8741;
-
-
-}
-#navbrand{
-    color: #FBEEC1;
+    background-color:#de6f26;
 }
 
-a.navLinks{
-    color: #FBEEC1;
-}
 footer{
-    background-color: #8D8741;
-    color: #FBEEC1;
+    background-color: #de6f26;
+    color: white;
 }
-
+#dog{
+    margin: 0 auto;
+}
+#cat {
+    margin: 0 auto;
+}
 .benefits{
     float: left;
+    margin: 0 auto;
 }
 .benefits img{
     width: 18rem;
@@ -34,12 +32,13 @@ footer{
     /* float: left; */
 }
 
-main{background-color:antiquewhite; }
-#gallery{background-color: #FBEEC1;}
-.homecard{
-    background-color: antiquewhite;
-}
+main#index{background-color:#de6f26; color:white}
+#gallery{background-color:white;}
 
+div#xiaogoubg{
+    background-color:#de6f26;
+    color: white;
+}
 
 /* dog page */
 body#pinkbg{
@@ -61,7 +60,7 @@ body#pinkbg{
     }
 }
 .navbar.scrolled{
-    background-color: #BC986A;
+    background-color: #e48a4e;
     transition: background 800ms;
 }
 
@@ -90,9 +89,9 @@ body#pinkbg{
     text-align: center;
 }
 
-#surverySect{
-    background-color: antiquewhite;
+.orangeTitle{
+    color:#e48a4e;
 }
-
-
-#sur{background-image: url("img/sur.jpg"); width: 300px;height: 180px; border-radius: 40px;}
+.otherResources{
+    color:#5a554b;
+}
